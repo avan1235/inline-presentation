@@ -12,7 +12,6 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          extra_system_packages: "inkscape"
           root_file: main.tex
       - name: Create release
         id: create_release
